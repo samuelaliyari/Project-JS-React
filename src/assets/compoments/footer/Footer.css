@@ -1,0 +1,19 @@
+.footer {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.footer h3 {
+    color: #cdcdff;
+    font-family: poppin_B;
+    font-size: 1.7rem;
+}
+
+.footer a {
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-family: poppin_m;
+    color: #cdcdff;
+    font-size: 0.8rem;
+}

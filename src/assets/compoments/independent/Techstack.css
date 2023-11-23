@@ -1,0 +1,11 @@
+
+.teckStack {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.teckStack p {
+    font-family: poppin_M;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,19 @@
+
+.projects {
+    text-align: center;
+    padding: 0 5%;
+}
+
+.projects h2 {
+    color: #cdcdff;
+    font-family: poppin_B;
+
+}
+.projects > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+    text-align: center;
+    margin-block: 2rem;
+    justify-content: center;
+    gap: 1.5rem;
+}

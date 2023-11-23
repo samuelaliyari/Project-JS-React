@@ -1,0 +1,22 @@
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav p {
+    color: #90a0d9;
+    font-size: 1.7rem;
+    font-family: poppin_SB;
+}
+
+ul {
+    font-family: poppin_M;
+    color: #bdbddd;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}

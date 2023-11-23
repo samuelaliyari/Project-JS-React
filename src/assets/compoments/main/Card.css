@@ -1,0 +1,18 @@
+.card {
+    color: #cdcdff;
+    padding:2rem 0.7rem;
+    background-color: #23283e;
+    box-shadow: 0 0 15px #1e2235;
+}
+
+.card h3{
+    font-family: poppin_SB;
+    color: #cdcdff
+}
+
+.card > p {
+    margin-block: 2rem;
+    font-family: poppin_L;
+    font-size: 0.8rem;
+    color: #90a0d9;
+}
