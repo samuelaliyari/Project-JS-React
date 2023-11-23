@@ -2,6 +2,7 @@
 .projects {
     text-align: center;
     padding: 0 5%;
+    margin: 0 auto;
 }
 
 .projects h2 {
@@ -11,9 +12,9 @@
 }
 .projects > div {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+    grid-template-columns: repeat(auto-fill, clamp(100px,30%, 400px));
     text-align: center;
     margin-block: 2rem;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 1.5rem;
 }

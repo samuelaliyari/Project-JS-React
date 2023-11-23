@@ -3,7 +3,9 @@
     padding:2rem 0.7rem;
     background-color: #23283e;
     box-shadow: 0 0 15px #1e2235;
+    transition: all 1s linear;
 }
+
 
 .card h3{
     font-family: poppin_SB;
@@ -15,4 +17,10 @@
     font-family: poppin_L;
     font-size: 0.8rem;
     color: #90a0d9;
+}
+
+
+.card:hover {
+    transform: translate(0 ,-5%);
+    box-shadow: 0 0 10px #90a0d9;
 }

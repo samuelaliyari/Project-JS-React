@@ -15,6 +15,6 @@
     row-gap: 1rem;
     padding: 3% 5%;
     flex-wrap: wrap;
-    width: 50%;
+    width: clamp(35vw, 80%, 35vw);
     margin: 0 auto;
 }

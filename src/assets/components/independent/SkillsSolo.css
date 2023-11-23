@@ -7,4 +7,10 @@
     padding: 0.5rem 1.3rem;
     box-shadow: 0 0 5px #131622;
     display: inline-block;
+    transition: all 300ms linear;
+}
+
+.skillsSolo:hover {
+    transform: translate(0 ,-5%);
+    box-shadow: 0 0 3px #90a0d9;
 }

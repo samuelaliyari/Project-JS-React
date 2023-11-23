@@ -45,3 +45,21 @@ body{
     background-color: #23283e;
     padding: 2%  5%;
 }
+
+nav a {
+	background: linear-gradient(currentColor, currentColor) left bottom / 0 .2rem no-repeat;
+	transition: 1s background-size;
+}
+
+nav a:hover {
+	background-size: 100% .2rem;
+}
+.footer a {
+	background: linear-gradient(currentColor, currentColor) left bottom / 0 .2rem no-repeat;
+	transition: 1s background-size;
+}
+
+.footer a:hover {
+	background-size: 100% .2rem;
+}
+
