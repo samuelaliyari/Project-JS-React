@@ -3,6 +3,9 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .teckStack p {
