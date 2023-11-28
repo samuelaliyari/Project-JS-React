@@ -7,7 +7,7 @@ const Hero = () => {
         <section className='hero'>
             <h1>
                 Hi, I am
-                <span> John Smith.</span>
+                <span> Samuel Aliyari.</span>
             </h1>
             <h2>A Front End Developer.</h2>
             <p> dolor sit amet, consectetur adipisicing elit. Ullam incidunt obcaecati, similique optio eaque repellat tempora culpa quos, quo est veniam alias quae, vitae eum exercitationem fugiat obcaecati. </p>
