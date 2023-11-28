@@ -28,3 +28,10 @@ h1 span {
     color: var(--primary);
     font-family: poppin_L;
 }
+
+.buttonWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
