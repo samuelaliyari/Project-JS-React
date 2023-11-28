@@ -1,7 +1,7 @@
 import Techstack from "../independent/Techstack";
 import './Card.css'
 const Card = (props) => {
-    console.log(props)
+
     return ( 
         <div className="card">
             <h3>{props.title}</h3>

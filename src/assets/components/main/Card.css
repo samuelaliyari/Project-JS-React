@@ -1,7 +1,7 @@
 .card {
-    color: #cdcdff;
+    color: var(--primary);
     padding:2rem 0.7rem;
-    background-color: #23283e;
+    background-color: var(--background);
     box-shadow: 0 0 15px #1e2235;
     transition: all 1s linear;
 }
@@ -9,18 +9,18 @@
 
 .card h3{
     font-family: poppin_SB;
-    color: #cdcdff
+    color: var(--primary)
 }
 
 .card > p {
     margin-block: 2rem;
     font-family: poppin_L;
     font-size: 0.8rem;
-    color: #90a0d9;
+    color: var(--primary);
 }
 
 
 .card:hover {
     transform: translate(0 ,-5%);
-    box-shadow: 0 0 10px #90a0d9;
+    box-shadow: 0 0 10px var(--secondary);
 }

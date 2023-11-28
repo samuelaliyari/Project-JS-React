@@ -2,19 +2,19 @@
 
 .button {
     background-color: rgba(35, 40, 62, 0);
-    border: 1px solid #90a0d9;
-    color: #90a0d9;
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
     padding: 0.5rem 1rem;
     margin-top: 2rem;
 }
 
 .button {
-	background: linear-gradient(#90a0d9, #90a0d9) left bottom / 0  no-repeat;
+	background: linear-gradient(var(--secondary), var(--secondary)) left bottom / 0  no-repeat;
 	transition: 1s all;
 
 }
 
 .button:hover {
 	background-size: 100% ;
-    color: #23283e;
+    color: var(--background);
 }

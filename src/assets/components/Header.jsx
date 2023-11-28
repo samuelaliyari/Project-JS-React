@@ -1,10 +1,12 @@
 import Hero from "./header/Hero";
 import Nav from "./header/Nav";
 
-const Header = () => {
+const Header = ({darkModeOn}) => {
+
+
     return ( 
         <>
-            <Nav />
+            <Nav darkModeOn = {darkModeOn}/>
             <Hero />
         </>
 

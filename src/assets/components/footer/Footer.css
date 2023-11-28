@@ -4,7 +4,7 @@
 }
 
 .footer h3 {
-    color: #cdcdff;
+    color: var(--primary);
     font-family: poppin_B;
     font-size: 1.7rem;
 }
@@ -14,6 +14,6 @@
     margin-bottom: 1rem;
     display: inline-block;
     font-family: poppin_m;
-    color: #cdcdff;
+    color: var(--primary);
     font-size: 0.8rem;
 }

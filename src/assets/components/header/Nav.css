@@ -4,19 +4,36 @@
 nav {
     display: flex;
     justify-content: space-between;
+
 }
 
 nav p {
-    color: #90a0d9;
+    color: var(--secondary);
     font-size: 1.7rem;
     font-family: poppin_SB;
 }
 
 ul {
     font-family: poppin_M;
-    color: #bdbddd;
+    color: var(--primary);
     list-style-type: none;
     display: flex;
     gap: 1rem;
     align-items: flex-end;
+}
+
+div {
+    cursor: pointer;
+}
+
+.dark nav div{
+    background: url(../../img/light.png) center / contain no-repeat;
+    width: 25px;
+    aspect-ratio: 1/1;
+}
+
+.light nav div{
+    background: url(../../img/dark.png) center / contain no-repeat;
+    width: 25px;
+    aspect-ratio: 1/1;
 }

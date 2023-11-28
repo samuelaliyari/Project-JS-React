@@ -1,17 +1,19 @@
 import Header from "./assets/components/Header";
 import Main from "./assets/components/Main";
 import Footer from "./assets/components/footer/Footer";
-import Nav from "./assets/components/header/Nav";
+import "./App.css"
+import { useState } from "react";
 
 
 
 const App = () => {
+  const [darkMode, setDarkMode] = useState(true);
   return ( 
-    <>
-      <Header />
+    <div className={darkMode ? "dark" : "light"}>
+      <Header darkModeOn = {setDarkMode} />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 }
 

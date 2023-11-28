@@ -1,27 +1,30 @@
 
+
 .hero {
     width: 50%;
     margin: 5vh auto;
     padding: 5vh 2vh;
     text-align: center;
+    background-color: var(--background);
+    padding: 2%  5%;
 }
 
 .hero h1 {
-    color: #cdcdff;
+    color: var(--primary);
     font-family: poppin_B;
     font-size: 3rem;
 }
 .hero h2 {
-    color: #cdcdff;
+    color: var(--primary);
     font-family: poppin_B;
     margin-block: 2vh;
 }
 
 h1 span {
-    color: #90a0d9;
+    color: var(--secondary);
 }
 
 .hero p {
-    color: #cdcdff;
-    font-family: poppin_T;
+    color: var(--primary);
+    font-family: poppin_L;
 }

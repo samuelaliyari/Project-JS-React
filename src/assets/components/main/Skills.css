@@ -2,10 +2,11 @@
 .skills {
     text-align: center;
     padding-top: 3rem;
+
 }
 
 .skills h2{
-    color: #cdcdff;
+    color: var(--primary);
     font-family: poppin_B;
 }
 

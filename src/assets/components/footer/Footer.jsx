@@ -7,7 +7,7 @@ const Footer = () => {
             <Contact />
             <a href="">Created by John Smith</a>
         </section>
-     );
+    );
 }
- 
+
 export default Footer;
